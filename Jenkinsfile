@@ -10,7 +10,7 @@ pipeline{
         }
         
         post{
-            sucess{
+            success{
                 echo "Job sucessfully run"
             }
             failure{
