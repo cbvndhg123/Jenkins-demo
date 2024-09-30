@@ -9,13 +9,13 @@ pipeline{
             }
         }
         
-        post{
-            success{
-                echo "Job sucessfully run"
-            }
-            failure{
-                echo " SOmething went wrong while job running"
-            }
+    }
+    post{
+        success{
+            echo "Job sucessfully run"
+        }
+        failure{
+            echo " SOmething went wrong while job running"
         }
     }
 
